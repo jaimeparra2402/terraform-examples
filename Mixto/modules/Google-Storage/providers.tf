@@ -9,6 +9,6 @@ terraform {
 
 provider "google" {
   credentials = file("${path.module}/../../gcp-identity.json")
-  project     = var.project_id
-  region      = var.region
+  project     = var.gcp_project
+  region      = "europe-southwest1"   
 }

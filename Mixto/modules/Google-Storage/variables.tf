@@ -13,5 +13,5 @@ variable "gcp_project" {
 variable "gcp_bucket_name" {
   description = "Nombre del bucket en Google Cloud Storage"
   type        = string
-  default     = "bucket"  
+  default     = "bucket-451"  
 }
